@@ -1,0 +1,7 @@
+SubDReporter Usage:
+
+-m 模式：该选项有两个（Scanner模式:s Reporter模式:r） e.g. -m s
+-i 目标：根据扫描模式选择，如果为Scanner模式则为一个域名；反之则为一个存储了域名的文本文件。
+-t 线程
+-p 端口：逗号分隔端口（80,8080,443,8081,8088）
+-b 浏览器：这个主要用来做截图的（phantomjs:p、chromedriver:c） e.g. -b c
