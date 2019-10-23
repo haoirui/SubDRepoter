@@ -4,10 +4,10 @@
 
 > SubDReporter是一款子域名报告生成工具；其功能一共有两个：1.子域名发现 2.子域名报告，子域名发现功能包含了子域名报告功能。
 
-**语言：**Python3
-**所需Python3的库：**selenium、requests、beautifulsoup4、lxml
-**优点：**SubDReporter支持多线程、跨平台（Linux、Windows、Mac）
-**缺点：**占用大、小几率漏报
+**语言：** Python3
+**所需Python3的库：** selenium、requests、beautifulsoup4、lxml
+**优点：** ubDReporter支持多线程、跨平台（Linux、Windows、Mac）
+**缺点：** 占用大、小几率漏报
 
 ### SubDReporter 目录结构：
 
@@ -44,7 +44,7 @@ SubDReporter的参数：
 ```
 
 **实际使用：**
-**需求： **对目标qianxin.com使用子域名发现功能，线程为10，扫描端口为80,443,8080,8081，使用的截图浏览器为chromedriver
+**需求：** 对目标qianxin.com使用子域名发现功能，线程为10，扫描端口为80,443,8080,8081，使用的截图浏览器为chromedriver
 使用： `python3 main.py -m s -i qianxin.com -t 10 -p 80,443,8080,8081 -b c`
 
 **需求：** 对1.txt内的IP、域名【注：非URL！】使用子域名报告功能，线程为10，扫描端口为80,443,8080,8081，使用的截图浏览器为phantomjs
